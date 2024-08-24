@@ -41,7 +41,7 @@ const ContactUs = (props: Props) => {
             <div>Mon - Fri: 9:00 AM - 5:00 PM</div>
           </div>
         </div>
-        <div className="hidden lg:block">
+        <div className="hidden md:block pt-4">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.195259272437!2d75.34947244838746!3d19.876010630683837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba327f339847f%3A0xf606f0cb0bc09227!2sRejoice%20Hair%20%26%20Skin%20LLP%20-%20Dr.%20Pallavi%20Narkhede!5e1!3m2!1sen!2sin!4v1724542188082!5m2!1sen!2sin"
             width="600"
@@ -51,7 +51,7 @@ const ContactUs = (props: Props) => {
             loading="lazy"
           ></iframe>
         </div>
-        <div className="lg:hidden pt-10">
+        <div className="md:hidden pt-10">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.195259272437!2d75.34947244838746!3d19.876010630683837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba327f339847f%3A0xf606f0cb0bc09227!2sRejoice%20Hair%20%26%20Skin%20LLP%20-%20Dr.%20Pallavi%20Narkhede!5e1!3m2!1sen!2sin!4v1724542188082!5m2!1sen!2sin"
             width="270"
