@@ -37,9 +37,9 @@ export const Header = () => {
     },
   ];
   return (
-    <header className="sticky top-0 shadow-sm z-40 bg-eggshell h-20 md:h-24 flex justify-center items-center">
+    <header className="sticky top-0 shadow-sm z-40 bg-white h-20 md:h-24 flex justify-center items-center">
       <nav
-        className="mx-auto z-10 w-full flex items-center bg-eggshell justify-between  gap-x-10  py-2 px-5 lg:py-2 xl:px-[115px] container"
+        className="mx-auto z-10 w-full flex items-center bg-white justify-between  gap-x-10  py-2 px-5 lg:py-2 xl:px-[32px] "
         aria-label="Global"
       >
         <div className="flex justify-between items-center gap-10">
