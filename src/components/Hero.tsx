@@ -6,10 +6,15 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div
-      className="h-[400px] md:h-[580px] object-cover bg-repeat-round relative  "
-      style={{ backgroundImage: "url('/hero.webp')" }}
-    >
+    <div className="h-[400px] md:h-[650px] object-cover bg-repeat-round relative  ">
+      <div className="h-screen">
+        <Image
+          src={"/hero.webp"}
+          alt="hero"
+          style={{ objectFit: "fill" }}
+          fill
+        />
+      </div>
       <div className="absolute top-10 left-5 md:top-1/4 md:left-32 max-w-lg ">
         <h1 className="text-3xl leading-[44px] tracking-[-0.02em] font-bold md:text-5xl mt-4 font-work-sans">
           Shree Vishwastha Ayurvedalaya and Panchakarma Centre

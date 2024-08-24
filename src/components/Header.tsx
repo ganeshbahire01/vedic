@@ -21,11 +21,6 @@ export const Header = () => {
       text: "Blog",
     },
     {
-      link: "/appointment",
-      variant: "primary",
-      text: "Book Appointment",
-    },
-    {
       link: "/testimonials",
       variant: "primary",
       text: "Testimonials",
@@ -64,8 +59,13 @@ export const Header = () => {
           </div>
         </div>
         <div className="flex justify-between items-center ">
-          <div className="hidden lg:flex lg:gap-4">
-            <PhoneCall color="green" capHeight={20} width={20} /> 9016531111
+          <div className="hidden lg:flex lg:gap-4 justify-center items-center">
+            <div className="flex gap-2 justify-center items-center py-2 px-4 border rounded-lg">
+              <PhoneCall color="green" capHeight={20} width={20} /> 9016531111
+            </div>
+            <Button className="text-white bg-[#93c942] py-2 px-4 rounded-lg  hover:bg-[#a5e840]">
+              Book Appointment
+            </Button>
           </div>
         </div>
         <div className="flex lg:hidden">
