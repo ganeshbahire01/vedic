@@ -16,7 +16,7 @@ interface PageProps {
 const page = ({ params }: PageProps) => {
   const Data = BlogData.find((item) => item.slug === params.slug);
   return (
-    <div className="container ">
+    <div className="container">
       <div className="font-dmsans container px-4 pt-6 md:px-8 md:pt-12">
         <div className="mb-10 flex w-full items-center justify-center py-0 md:mb-6 md:w-auto md:justify-between">
           <Link
@@ -32,7 +32,7 @@ const page = ({ params }: PageProps) => {
           </Link>
         </div>
         <div className="mb-10 md:mb-14">
-          <div className="mx-auto mt-10 w-full text-center text-5xl font-bold tracking-tight text-gray-800 md:mt-7 md:w-2/3 md:text-6xl">
+          <div className="mx-auto mt-10 w-full text-center text-2xl font-bold tracking-tight text-gray-800 md:mt-7 md:w-2/3 md:text-6xl">
             <h2>{Data?.title} </h2>
           </div>
           <div className="mt-6 flex flex-col items-center justify-center gap-2 text-base md:mt-7 md:flex-row">

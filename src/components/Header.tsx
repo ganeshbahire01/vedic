@@ -9,14 +9,14 @@ export const Header = () => {
   const path = usePathname();
   const CTAs = [
     {
-      link: "/about-us",
-      variant: "secondary",
-      text: "About Us",
-    },
-    {
       link: "/procedure",
       variant: "primary",
       text: "Procedure",
+    },
+    {
+      link: "/about-us",
+      variant: "secondary",
+      text: "About Us",
     },
     {
       link: "/blogs",

@@ -22,7 +22,7 @@ const Treatments = (props: Props) => {
               className="rounded-xl m-auto"
             />
             <h3 className="my-4 font-bold text-xl">{item.title}</h3>
-            <p className="text-gray-600">{item.description}</p>
+            <p className="text-gray-600 line-clamp-4">{item.description}</p>
             <Button className="text-white bg-[#93c942] py-2 px-4 rounded-lg mt-4 hover:bg-[#a5e840]">
               Enquire Now
             </Button>
