@@ -2,49 +2,121 @@ export const treatments = [
   {
     image: "/treatments.webp",
     title: "Panchakarma",
-    description:
-      "Panchakarma is the primary therapeutic, purification, detoxification, and rejuvenation treatment in Ayurveda.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+            Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+            corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+            velit nam beatae. Velit esse expedita numquam id officia enim
+            obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+            Delectus porro ducimus, non, minima modi et facilis at, laborum
+            nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+            quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+            tenetur facere aspernatur minus consequatur quibusdam illo, unde
+            soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "ElaKizhi",
-    description:
-      "This treatment stimulates and strengthens the nervous and muscular systems, reduces stiffness and pain, improves the skin tone.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+            Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+            corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+            velit nam beatae. Velit esse expedita numquam id officia enim
+            obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+            Delectus porro ducimus, non, minima modi et facilis at, laborum
+            nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+            quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+            tenetur facere aspernatur minus consequatur quibusdam illo, unde
+            soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "Njavara Kizhi",
-    description:
-      "This treatment renders strength to the nerves and muscles and purifies blood and is beneficial for all types of rheumatism.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+    Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+    corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+    velit nam beatae. Velit esse expedita numquam id officia enim
+    obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+    Delectus porro ducimus, non, minima modi et facilis at, laborum
+    nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+    quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+    tenetur facere aspernatur minus consequatur quibusdam illo, unde
+    soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+    adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "Pizhichil",
-    description:
-      "This is a therapeutic process which is effective for paralysis, weakness of muscular and nervous systems, and sexual weakness.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+            Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+            corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+            velit nam beatae. Velit esse expedita numquam id officia enim
+            obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+            Delectus porro ducimus, non, minima modi et facilis at, laborum
+            nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+            quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+            tenetur facere aspernatur minus consequatur quibusdam illo, unde
+            soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "Udvartana",
-    description:
-      "A special therapeutic deep tissue massage using herbal powders. It is beneficial for reducing obesity and improving skin texture.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+    Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+    corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+    velit nam beatae. Velit esse expedita numquam id officia enim
+    obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+    Delectus porro ducimus, non, minima modi et facilis at, laborum
+    nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+    quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+    tenetur facere aspernatur minus consequatur quibusdam illo, unde
+    soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+    adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "Shirodhara",
-    description:
-      "A relaxing therapy where warm herbal oil is poured in a continuous stream over the forehead to alleviate stress and improve sleep quality.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+    Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+    corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+    velit nam beatae. Velit esse expedita numquam id officia enim
+    obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+    Delectus porro ducimus, non, minima modi et facilis at, laborum
+    nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+    quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+    tenetur facere aspernatur minus consequatur quibusdam illo, unde
+    soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+    adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "Abhyanga",
-    description:
-      "A full-body warm oil massage that enhances circulation, detoxification, and deep relaxation, promoting overall well-being.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+    Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+    corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+    velit nam beatae. Velit esse expedita numquam id officia enim
+    obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+    Delectus porro ducimus, non, minima modi et facilis at, laborum
+    nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+    quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+    tenetur facere aspernatur minus consequatur quibusdam illo, unde
+    soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+    adipisicing elit.`,
   },
   {
     image: "/treatments.webp",
     title: "Kati Basti",
-    description:
-      "A localized treatment for chronic lower back pain using warm herbal oil retained in a dough ring placed on the affected area.",
+    description: ` Quo expedita saepe debitis exercitationem eius delectus recusandae.
+            Sunt placeat adipisci commodi reiciendis illum debitis, laborum
+            corrupti non tenetur nostrum quia ipsum suscipit ad quos iure illo
+            velit nam beatae. Velit esse expedita numquam id officia enim
+            obcaecati quia vel temporibus animi nobis itaque, dolores magnam?
+            Delectus porro ducimus, non, minima modi et facilis at, laborum
+            nobis doloribus nemo corporis! Debitis iste velit consequuntur illo
+            quisquam repudiandae quia doloribus corrupti dolores? Eos amet
+            tenetur facere aspernatur minus consequatur quibusdam illo, unde
+            soluta neque fuga. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.`,
   },
 ];
