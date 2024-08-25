@@ -1,9 +1,10 @@
 // components/Footer.js
+import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-200 text-black py-8">
+    <footer className="bg-gray-100 text-black py-8">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <h3 className="font-semibold text-lg mb-4">USEFUL LINKS</h3>
@@ -90,8 +91,12 @@ const Footer = () => {
 
         <div>
           <h3 className="font-semibold text-lg mb-4">CONNECT</h3>
-          <p className="text-4xl mb-2">f</p>
-          <p className="text-4xl mb-2">p.</p>
+          <div className="flex gap-2">
+            <Linkedin />
+            <Instagram />
+            <Youtube />
+            <Facebook />
+          </div>
         </div>
       </div>
       <div className="border-t border-gray-700 mt-8 pt-4 text-center">
