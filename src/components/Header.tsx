@@ -50,7 +50,7 @@ export const Header = () => {
               {CTAs?.map((item, i) => (
                 <Link
                   href={item?.link}
-                  className="hover:text-gray-950 text-gray-500"
+                  className="hover:text-gray-950 text-gray-500 border-b-2 border-white hover:border-b-2 hover:border-gray-950 transition-all duration-300 ease-in-out"
                 >
                   {item?.text}
                 </Link>
@@ -60,8 +60,10 @@ export const Header = () => {
         </div>
         <div className="flex justify-between items-center ">
           <div className="hidden lg:flex lg:gap-4 justify-center items-center">
-            <div className="flex gap-2 justify-center items-center py-2 px-4 border rounded-lg">
-              <PhoneCall color="green" capHeight={20} width={20} /> 9016531111
+            <div className="flex gap-2 justify-center items-center py-2 px-4 border rounded-lg hover:bg-gray-100 cursor-pointer">
+              <a href="tel:9016531111" className="flex items-center gap-2">
+                <PhoneCall color="green" capHeight={20} width={20} /> 9016531111
+              </a>
             </div>
             <Button className="text-white bg-[#93c942] py-2 px-4 rounded-lg  hover:bg-[#a5e840]">
               Book Appointment
