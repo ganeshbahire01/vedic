@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import NextTopLoader from "nextjs-toploader";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <NextTopLoader color="#3A6421" showSpinner={false} />
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
