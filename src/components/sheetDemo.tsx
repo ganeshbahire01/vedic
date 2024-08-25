@@ -28,9 +28,9 @@ export function SheetDemo() {
       text: "Procedure",
     },
     {
-      link: "/blog",
+      link: "/blogs",
       variant: "secondary",
-      text: "Blog",
+      text: "Blogs",
     },
     {
       link: "/testimonials",

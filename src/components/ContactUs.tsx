@@ -43,7 +43,7 @@ const ContactUs = (props: Props) => {
         </div>
         <div className="hidden md:block pt-4">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.195259272437!2d75.34947244838746!3d19.876010630683837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba327f339847f%3A0xf606f0cb0bc09227!2sRejoice%20Hair%20%26%20Skin%20LLP%20-%20Dr.%20Pallavi%20Narkhede!5e1!3m2!1sen!2sin!4v1724542188082!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.8063078560785!2d75.3500519!3d19.876063499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba30052d89871%3A0x3af9535ab732397c!2sShri%20Vishwastha%20Ayurvedic%20chikitsalay%20and%20Panchkrma%20centre!5e1!3m2!1sen!2sin!4v1724572376571!5m2!1sen!2sin"
             width="600"
             height="320"
             className="rounded-3xl"
@@ -53,7 +53,7 @@ const ContactUs = (props: Props) => {
         </div>
         <div className="md:hidden pt-10">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3600.195259272437!2d75.34947244838746!3d19.876010630683837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba327f339847f%3A0xf606f0cb0bc09227!2sRejoice%20Hair%20%26%20Skin%20LLP%20-%20Dr.%20Pallavi%20Narkhede!5e1!3m2!1sen!2sin!4v1724542188082!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.8063078560785!2d75.3500519!3d19.876063499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba30052d89871%3A0x3af9535ab732397c!2sShri%20Vishwastha%20Ayurvedic%20chikitsalay%20and%20Panchkrma%20centre!5e1!3m2!1sen!2sin!4v1724572376571!5m2!1sen!2sin"
             width="270"
             height="200"
             className="rounded-3xl"
