@@ -1,9 +1,12 @@
+"use client";
 import { SheetDemo } from "./sheetDemo";
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import { PhoneCall } from "lucide-react";
+import { usePathname } from "next/navigation";
 export const Header = () => {
+  const path = usePathname();
   const CTAs = [
     {
       link: "/about-us",
@@ -50,7 +53,18 @@ export const Header = () => {
               {CTAs?.map((item, i) => (
                 <Link
                   href={item?.link}
-                  className="hover:text-gray-950 text-gray-500 border-b-2 border-white hover:border-b-2 hover:border-gray-950 transition-all duration-300 ease-in-out"
+                  className={`
+                    hover:text-gray-950 
+                    text-gray-500 
+                    border-b-2 
+                    border-white 
+                    hover:border-b-2 
+                    hover:border-gray-950 
+                    transition-all 
+                    duration-300 
+                    ease-in-out
+                    ${path === item?.link ? "border-b-2 border-gray-950" : ""}
+                  `}
                 >
                   {item?.text}
                 </Link>

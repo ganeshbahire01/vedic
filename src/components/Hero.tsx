@@ -6,7 +6,7 @@ type Props = {};
 
 const Hero = (props: Props) => {
   return (
-    <div className="h-[400px] md:h-[650px] object-cover bg-repeat-round relative">
+    <div className="h-[400px] md:h-[650px] object-cover bg-repeat-round relative  ">
       <div className="h-screen">
         <Image
           src={"/hero.webp"}
