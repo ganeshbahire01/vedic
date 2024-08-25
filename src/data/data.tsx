@@ -37,14 +37,14 @@ export const treatments = [
   },
   {
     image: "/treatments.webp",
-    title: "Udvartana",
+    title: "Abhyanga",
     description:
-      "A special therapeutic deep tissue massage using herbal powders. It is beneficial for reducing obesity and improving skin texture.",
+      "A full-body warm oil massage that enhances circulation, detoxification, and deep relaxation, promoting overall well-being.",
   },
   {
     image: "/treatments.webp",
-    title: "Shirodhara",
+    title: "Kati Basti",
     description:
-      "A relaxing therapy where warm herbal oil is poured in a continuous stream over the forehead to alleviate stress and improve sleep quality.",
+      "A localized treatment for chronic lower back pain using warm herbal oil retained in a dough ring placed on the affected area.",
   },
 ];
