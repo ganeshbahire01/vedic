@@ -34,6 +34,7 @@ export const Header = () => {
       text: "Contact Us",
     },
   ];
+  console.log({ path });
   return (
     <header className="sticky top-0 shadow-sm z-40 bg-white h-20 md:h-24 flex justify-center items-center">
       <nav
@@ -63,7 +64,7 @@ export const Header = () => {
                     transition-all 
                     duration-300 
                     ease-in-out
-                    ${path === item?.link ? "border-b-2 border-gray-950" : ""}
+                    ${path === item?.link ? "!border-gray-950 " : ""}
                   `}
                 >
                   {item?.text}
