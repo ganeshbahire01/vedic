@@ -1,5 +1,12 @@
 // components/Footer.js
-import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  MessageCircle,
+  Youtube,
+} from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -10,29 +17,29 @@ const Footer = () => {
           <h3 className="font-semibold text-lg mb-4">USEFUL LINKS</h3>
           <ul>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                PRIVACY POLICY
-              </a>
+              <Link href="/procedure" className="hover:underline">
+                Procedure
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                BOOK APPOINTMENT
-              </a>
+              <Link href="/about-us" className="hover:underline">
+                About Us
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                OUR SPECIALITIES
-              </a>
+              <Link href="/blogs" className="hover:underline">
+                Blogs
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                GALLERY
-              </a>
+              <Link href="#" className="hover:underline">
+                Gallery
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                ¥MORE
-              </a>
+              <Link href="/testimonials" className="hover:underline">
+                Testimonials
+              </Link>
             </li>
           </ul>
         </div>
@@ -41,24 +48,24 @@ const Footer = () => {
           <h3 className="font-semibold text-lg mb-4">NAVIGATION</h3>
           <ul>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                HOME
-              </a>
+              <Link href="/contact-us" className="hover:underline">
+                Contact Us
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                TREATMENTS
-              </a>
+              <Link href="/procedure" className="hover:underline">
+                Treatments
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                ABOUT US
-              </a>
+              <Link href="/blogs/1" className="hover:underline">
+                Water is Your Best Friend
+              </Link>
             </li>
             <li className="mb-2">
-              <a href="#" className="hover:underline">
-                TESTIMONIALS
-              </a>
+              <Link href="/blogs/2" className="hover:underline">
+                Understanding PCOD
+              </Link>
             </li>
           </ul>
         </div>
@@ -66,41 +73,69 @@ const Footer = () => {
         <div>
           <h3 className="font-semibold text-lg mb-4">CONTACT</h3>
           <p className="mb-2">
-            Palm Court Bldg M, 501/B, 5th Floor,
+            Shri Vishwastha Ayurvedic chikitsalay and Panchkrma centre Seven
+            Hills Flyover Rd, Raghuveer Nagar, Vidya Nagar, Nyay Nagar,
+            Chhatrapati Sambhajinagar (Aurangabad)
             <br />
-            New Link Road, Beside Goregaon
-            <br />
-            Sports Complex, Malad West, Mumbai,
-            <br />
-            400064, Maharashtra
+            Maharashtra 431003
           </p>
           <p className="mb-2">
-            <a href="tel:+918888888888" className="hover:underline">
-              +91-8888888888
-            </a>
+            <Link href="tel:+919016531111" className="hover:underline">
+              +91-9016531111
+            </Link>
           </p>
           <p>
-            <a
+            <Link
               href="mailto:websupport@justdial.com"
               className="hover:underline"
             >
               websupport@justdial.com
-            </a>
+            </Link>
           </p>
         </div>
 
         <div>
           <h3 className="font-semibold text-lg mb-4">CONNECT</h3>
           <div className="flex gap-2">
-            <Linkedin />
-            <Instagram />
-            <Youtube />
-            <Facebook />
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B919016531111&text&type=phone_number&app_absent=0"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MessageCircle />
+            </a>
+            <a
+              href="https://www.instagram.com/shri_vishwastha_chikitsalay/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Instagram />
+            </a>
+            <a
+              href="https://www.youtube.com/@drgopalgayakwad"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Youtube />
+            </a>
+            <a
+              href="https://www.facebook.com/people/vishwastha_ayurvedalay/100088978789785/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Facebook />
+            </a>
           </div>
         </div>
       </div>
       <div className="border-t border-gray-700 mt-8 pt-4 text-center">
-        <p>&copy; 2021 - 2022 Harmony Hospital. All Rights Reserved.</p>
+        <p>
+          &copy; 2023 - 2024{" "}
+          <b className="text-green-600">
+            Shri Vishwastha Ayurvedic chikitsalay and Panchkrma centre.
+          </b>{" "}
+          All Rights Reserved.
+        </p>
       </div>
     </footer>
   );
